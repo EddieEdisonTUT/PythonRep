@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" modified="2023-04-09T10:36:18.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="bK60Hg-cqDpQbXdly1T1" version="21.1.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1434" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="4KZBZLqJ3KKOykxUIMJi-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Встановлення дверей" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="320" y="20" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4KZBZLqJ3KKOykxUIMJi-0" target="4KZBZLqJ3KKOykxUIMJi-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-0" value="Зняти двері з петель рами" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4KZBZLqJ3KKOykxUIMJi-2" target="4KZBZLqJ3KKOykxUIMJi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-2" value="Встановити раму дверей на потрібне місце" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4KZBZLqJ3KKOykxUIMJi-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-4" value="Прикрутити раму до стін" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="320" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-8" value="Одіти двері на петлі на рамі" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-12" value="Міцно" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4KZBZLqJ3KKOykxUIMJi-10">
+          <mxGeometry y="-20" relative="1" as="geometry">
+            <mxPoint x="250" y="440" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-15" value="Ні" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4KZBZLqJ3KKOykxUIMJi-10" target="4KZBZLqJ3KKOykxUIMJi-14">
+          <mxGeometry x="-0.1429" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-10" value="Перевірити раму на міцність установки" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;verticalAlign=middle;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#006658;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4KZBZLqJ3KKOykxUIMJi-14" target="4KZBZLqJ3KKOykxUIMJi-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-14" value="Укріпити раму" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZBZLqJ3KKOykxUIMJi-16" value="Одіти двері на петлі рами" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
