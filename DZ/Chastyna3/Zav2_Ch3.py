@@ -1,4 +1,4 @@
-number1 = int (input('number')) #1297
+number1 = int(input('number: ')) #1297
 a = number1 // 10
 h = a // 10
 j = h // 10
