@@ -3,14 +3,14 @@ b = int(input('Введіть друге число: '))
 
 while a <= b:
     if a % 3 == 0 and a % 5 == 0:
-        print('Fizz Buzz', end='-')
+        print('FizzBuzz', end='\n')
         a += 1
     elif a % 3 == 0:
-        print('Fizz', end='-')
+        print('Fizz', end='\n')
         a += 1
     elif a % 5 == 0:
-        print('Buzz', end='-')
+        print('Buzz', end='\n')
         a += 1
     else:
-        print(a, end='-')
+        print(a, end='\n')
         a += 1
