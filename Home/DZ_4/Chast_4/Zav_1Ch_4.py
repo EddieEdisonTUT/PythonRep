@@ -1,7 +1,17 @@
+import time
+import math
 a = int(input('number1: '))
 b = int(input('number2: '))
-i = 0
-while a <= b:
-    if i % a == 0 and i % 1 == 0:
-        print(i)
-    a += 1
+
+if a == 1:
+    a+1
+start_time = time.time()
+for i in range(a,b+1):
+    for j in range(2, int(math.sqrt(i))+1):
+        if i % j == 0:
+            # print('Прості',j)
+            break
+    else:
+        print(i, end=' ')
+end_time = time.time()
+print('\ntime = ',end_time - start_time)

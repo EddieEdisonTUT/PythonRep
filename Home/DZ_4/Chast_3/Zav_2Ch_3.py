@@ -1,9 +1,7 @@
-i = 0
-sum = 0 
-for i in range(100,10000):
-    i += 1
-    
+
+for i in range(100,1000):
     if i % 11 == 0:
-        sum += i
+        print(i)
+
 else:
-    print(sum)
+    print()

@@ -6,7 +6,7 @@ summa_cr9 = 0
 i = a
 j = a
 k = a
-while a <= b:
+while a < b+1:
     a += 1
     if a % 2 == 0:
         summa_chet += a
