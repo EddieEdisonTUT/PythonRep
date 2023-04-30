@@ -3,8 +3,8 @@ import math
 a = int(input('number1: '))
 b = int(input('number2: '))
 
-if a == 1:
-    a+1
+if a < 2:
+    a = 2
 start_time = time.time()
 for i in range(a,b+1):
     for j in range(2, int(math.sqrt(i))+1):

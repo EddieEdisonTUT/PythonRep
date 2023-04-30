@@ -1,10 +1,9 @@
+count = 0
 
-for i in range(100,1000):
-    i = 1
-    i = 2
-    i = 3
-    if i :
-        print(i)
+for i in range(100, 1000):
+    digits = str(i)
+    
+    if digits[0] == digits[1] or digits[0] == digits[2] or digits[1] == digits[2]:
+        count += 1
 
-else:
-    print()
+print('Кількість цілих чисел з двома однаковими цифрами:', count)
