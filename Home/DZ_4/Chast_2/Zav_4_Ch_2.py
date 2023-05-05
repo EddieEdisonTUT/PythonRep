@@ -1,15 +1,19 @@
 while True:
-    n = int(input('Введіть число:'))
-
+    n = int(input('Введіть число: '))
+    m = int(input('Введіть число: '))
     while n != 7:
-        if n == 0:
-            print('""Number is equal to zero"')
+        if n > m:
+            print('Максимум: ',n)
+            print('Сумма: ',(n+m))
+            print('Мінімум: ',m)
             break
-        elif n > 0:
-            print('"Number is positive"')
+        elif n < m:
+            print('Максимум: ',m)
+            print('Сумма: ',(n+m))
+            print('Мінімум: ',n)
             break
-        elif n < 0:
-            print('"Number is negative"')
+        elif n == m:
+            print('Сумма: ',(n+m))
             break
         else:
             pass
