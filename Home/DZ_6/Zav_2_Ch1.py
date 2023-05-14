@@ -10,5 +10,4 @@ def display_even_numbers(n1,n2):
         if i % 2 == 0:
             print(i)
 
-a = display_even_numbers(1,10)
-print(a)
+display_even_numbers(1,10)
