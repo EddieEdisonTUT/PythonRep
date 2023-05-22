@@ -1,10 +1,11 @@
-from tkinter import Y
+import telnetlib
 
 
 class Human:
     def __init__(self,FIO, date, tel, city, country, address):
         self.FIO = FIO
         self.date = date
+        self.tel = tel
 
     def get_FIO(self):
         return self.FIO
