@@ -1,8 +1,11 @@
-class Human:
-    def __init__(self,FIO, date, tel, city, country, address):
-        self.FIO = FIO
-        self.date = date
-        self.tel = tel
+class Car:
+    def __init__(self,name, year, producer, V_engine, color, price):
+        self.name = name
+        self.year = year
+        self.producer = producer
+        self.v_engine = V_engine
+        self.color = color
+        self.price = price
 
     def get_FIO(self):
         return self.FIO
