@@ -1,8 +1,10 @@
 text = input("Введіть текст: ")
 
 delimiters = [".", "!", "?"]
+count = 0
 
-rechennya = [rechennya.strip() for rechennya in text.split((delimiters), text) ]
+for i in text:
+    if i in delimiters:
+        count += 1
 
-num_sentences = len(rechennya)
-print("Кількість речень у тексті: ", num_sentences)
+print("Кількість речень у тексті: ", count)
