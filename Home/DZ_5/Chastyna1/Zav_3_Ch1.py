@@ -1,10 +1,11 @@
-text = input("Введіть текст: ")
+text = "Это пример текста. В нем есть несколько предложений! Количество предложений нужно посчитать?"
 
-delimiters = [".", "!", "?"]
+punctuation = ['.', '!', '?']
 count = 0
 
-for i in text:
-    if i in delimiters:
+for char in text:
+    if char in punctuation:
         count += 1
 
-print("Кількість речень у тексті: ", count)
+print('Кількість речень:', count)
+
