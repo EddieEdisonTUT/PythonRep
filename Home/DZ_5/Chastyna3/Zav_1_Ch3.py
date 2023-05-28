@@ -7,13 +7,9 @@ list1 = generate_random_list(10)
 list2 = generate_random_list(10)
 
 combined_list = list1 + list2
-
 unique_list = list(set(combined_list))
-
 common_list = list(set(list1) & set(list2))
-
 unique_elements_list = list(set(list1) ^ set(list2))
-
 min_max_list = [min(list1), max(list1), min(list2), max(list2)]
 
 print("Перший список:", list1)
