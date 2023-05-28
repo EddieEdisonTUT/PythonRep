@@ -1,12 +1,17 @@
 def count_simple(numbers):
-    simple = numbers[0] 
+    count = 0
     for i in numbers:
-        if i // 2 != 0:
-            simple = i
+         if i > 1:
+            is_prime = True
+            count += 1
+            for h in range(2, i):
+                if (i % h) == 0:
+                    is_prime = False
+                    break
             
-    return simple
+    return count
 
-numbers_list = [5, 3, 8, 2, 9, 1]
+numbers_list = [5, 3, 8, 2, 9, 1, 7]
 result = count_simple(numbers_list)
 
 print("Прості числа у списку:", result)
