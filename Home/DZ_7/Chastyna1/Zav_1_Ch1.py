@@ -7,21 +7,34 @@ class Car:
         self.color = color
         self.price = price
 
-    def get_FIO(self):
-        return self.FIO
+    def get_name(self):
+        return self.name
 
     def get_year(self):
-        return self.date
+        return self.year
 
     def put_year(self, y):
         date = list(self.date)
         date[2] = y
         self.date = tuple(date) 
 
-    def get_tel(self):
-        return self.tel
+    def get_producer(self):
+        return self.producer
+    
+    def get_V_engine(self):
+        return self.v_engine
+    
+    def get_color(self):
+        return self.color
+    
+    def get_price(self):
+        return self.price
         
 
-man = Human('KSV',(12,7,1997),'+380970175942','Kryvyi Rih','Ukrain',4 )
-print(man.get_FIO())
-print(man.get_year())
+car = Car('FH16', 2023, 'Volovo','2.0','Blue', '$4000' )
+print(car.get_name())
+print(car.get_year())
+print(car.get_producer())
+print(car.get_V_engine())
+print(car.get_color())
+print(car.get_price())
