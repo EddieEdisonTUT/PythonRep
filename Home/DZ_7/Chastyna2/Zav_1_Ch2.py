@@ -44,6 +44,10 @@ class Car:
 
     def put_price(self, value):
         self.price = value
+
+    def __str__(self) -> str:
+        col = 'Red'
+        return col
         
 
 car = Car('FH16', 2023, 'Volovo','2.0','Blue', '$4000' )
@@ -53,4 +57,5 @@ print(car.get_year())
 print(car.get_producer())
 print(car.get_V_engine())
 print(car.get_color())
+print(car.__str__())
 print(car.get_price())

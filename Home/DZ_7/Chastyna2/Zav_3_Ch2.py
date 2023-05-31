@@ -37,6 +37,10 @@ class Stadion:
 
     def put_capacity(self, spaciousness):
         self.capacity = spaciousness
+
+    def __len__(self):
+        
+        return self.capacity
     
 stad = Stadion('ДонбасАрена', (29,8,2009), 'Ukraine', 'Donetsk', 50000)
 print(stad.get_name())
@@ -44,4 +48,4 @@ print(stad.get_date())
 print(stad.get_country())
 print(stad.get_city())
 print(stad.get_capacity())
-        
+print(len(stad))

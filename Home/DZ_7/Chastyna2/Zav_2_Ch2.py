@@ -30,6 +30,9 @@ class Book:
     def get_genre(self):
         return self.genre
 
+    def __str__(self) -> str:
+        return "This book has an adventure genre and " + str(self.genre)
+
     def put_genre(self, gem):
         self.genre = gem
     
@@ -44,12 +47,14 @@ class Book:
 
     def put_price(self, pricing):
         self.price = pricing
+
     
 book = Book('Гаррі Поттер i філософський камінь', 2022, 'А-БА-БА-ГА-ЛА-МА-ГА', 'Fantasy', 'Katlin Roling', '400 грн')
 print(book.get_name())
 print(book.get_year_print())
 print(book.get_genre())
-print(book.put_genre('Adventure'))
+# print(book.put_genre('Adventure'))
+print(book.__str__())
 print(book.get_publisher())
 print(book.get_author())
 print(book.get_price())
