@@ -1,5 +1,11 @@
-from Home.Kontrolna.vehicle import Vehicle
+from vehicle import Vehicle
 
 
 class Car(Vehicle):
-    pass
+    def __init__(self, type_engine, type_transportation, wheels, helm):
+        super().__init__(type_engine, type_transportation)
+        self.wheels = wheels
+        self.helm = helm
+
+    def show_info(self):
+        return self.wheels
