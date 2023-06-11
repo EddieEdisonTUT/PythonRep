@@ -1,46 +1,49 @@
 class Device:
-    def __init__(self, company, power, color) -> None:
-        self.company = company
-        self.power = power
-        self.color = color
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
 
-    
-class CoffeMachine(Device):
-    def __init__(self, company, power, color, type_coffe, bowl_capacity) -> None:
-        super().__init__(company, power, color)
-        self.type_coffe = type_coffe
-        self.bowl_capacity = bowl_capacity
+    def turn_on(self):
+        print("Device is turned on.")
 
-    def get_info(self):
-        return self.type_coffe, self.bowl_capacity
+    def turn_off(self):
+        print("Device is turned off.")
 
-    def put_coffe(self, types):
-        self.type_coffe = types
+class CoffeeMachine(Device):
+    def __init__(self, brand, model, capacity):
+        super().__init__(brand, model)
+        self.capacity = capacity
+
+    def brew_coffee(self):
+        print("Brewing coffee...")
 
 class Blender(Device):
-    def __init__(self, company, power, color, tips_sockets, blade_turns) -> None:
-        super().__init__(company, power, color)
-        self.tips_sockets = tips_sockets
-        self.blade_turns = blade_turns
+    def __init__(self, brand, model, speed_levels):
+        super().__init__(brand, model)
+        self.speed_levels = speed_levels
 
-    def get_info(self):
-        return self.tips_sockets, self.blade_turns
-
-    def put_blender(self, tips):
-        self.tips_sockets = tips
+    def blend(self):
+        print("Blending...")
 
 class MeatGrinder(Device):
-    def __init__(self, company, power, color, types_blades, protection_class) -> None:
-        super().__init__(company, power, color)
-        self.types_blades = types_blades
-        self.protection = protection_class
+    def __init__(self, brand, model, power):
+        super().__init__(brand, model)
+        self.power = power
 
-    def get_info(self):
-        return self.types_blades, self.protection
+    def grind_meat(self):
+        print("Grinding meat...")
 
-    def put_grind(self, blades):
-        self.types_blades = blades
+coffee_machine = CoffeeMachine("Philips", "Series 2200", 12)
+coffee_machine.turn_on()
+coffee_machine.brew_coffee()
+coffee_machine.turn_off()
 
-dev = Blender('Braun', 1200, 'red', 'dive head', 1000)
-print(dev.put_blender('cutting'))
-print(dev.get_info())
+blender = Blender("Bosch", "MSM2650B", 5)
+blender.turn_on()
+blender.blend()
+blender.turn_off()
+
+meat_grinder = MeatGrinder("Bosch", "MFW3640A", 1600)
+meat_grinder.turn_on()
+meat_grinder.grind_meat()
+meat_grinder.turn_off()
