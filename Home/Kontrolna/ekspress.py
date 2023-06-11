@@ -8,4 +8,5 @@ class Ekspress(Train):
         self.travel_time = travel_time
 
     def show_info(self):
+        print('Швидкість:')
         return self.speed

@@ -8,4 +8,5 @@ class Train(Vehicle):
         self.wagons = wagons
 
     def show_info(self):
+        print('Тип палива:')
         return self.fuel

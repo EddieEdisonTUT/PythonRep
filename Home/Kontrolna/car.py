@@ -8,4 +8,5 @@ class Car(Vehicle):
         self.helm = helm
 
     def show_info(self):
+        print('Кількість колес:')
         return self.wheels

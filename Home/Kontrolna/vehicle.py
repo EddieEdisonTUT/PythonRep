@@ -4,5 +4,6 @@ class Vehicle:
         self.type_transportation = type_transportation
 
     def show_info(self):
+        print('Тип двигуна:')
         return self.type_engine
     
