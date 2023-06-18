@@ -67,7 +67,7 @@ class Ellipse(Shape):
         print("Height:", self.height)
 
 
-# Создаем список фигур
+
 shapes = [
     Square(10, 10, 50),
     Rectangle(20, 20, 80, 40),
@@ -75,18 +75,17 @@ shapes = [
     Ellipse(40, 40, 60, 30)
 ]
 
-# Сохраняем фигуры в файл
+
 filename = "shapes_data.bin"
 with open(filename, 'wb') as file:
     pickle.dump(shapes, file)
 
-# Загружаем фигуры из файла в другой список
+
 loaded_shapes = []
 with open(filename, 'rb') as file:
     loaded_shapes = pickle.load(file)
 
-# Отображаем информацию о каждой фигуре из загруженного списка
+
 for shape in loaded_shapes:
     shape.Show()
     print()
-
